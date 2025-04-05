@@ -1,1 +1,5 @@
-//your JS code here. If required.
+let start = document.getElementById("start")
+
+document.getElementById("open").addEventListener("click", function(){
+	
+})
