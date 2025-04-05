@@ -8,39 +8,40 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<button id="open">Sign Up</button>
-		
-		<form id="start">
-			<caption><b>Create Account</b></caption>
-			<button id="close">x</button>
-			<br>
-			<br>
-			
-			<label for="Email address">Email Address</label>
-			<br>
-			<input id="" name="Email address" type="email" placeholder="Enter email">
-			<p>Your information is safe with us.</p>
-			
-			<br>
-			
-			<label for="Password">Password</label>
-			<br>
-			<input id="Password" name="Password" placeholder="Password" type="">
-			<br>
-			<br>
-			
-			<label for="Confirm Password">Confirm Password</label>
-			<br>
-			<input id="Confirm Password" name="Confirm Password" type="password" placeholder="Confirm Password">
-			<br>
-			<br>
-			
-			<button id="Submit" name="submit" type="submit">
-			Submit
-			</button>
-			<br>
-		
-		
-		</form>
-	</body>
+    <button id="open" class="bg-danger">Sign Up</button>
+    <form id="start" class="border border-danger p-5" style="display:none; border-width: 3px; width: 400px; margin: 20px auto;">
+        <caption><b>Create Account</b></caption>
+        <button id="close" class="bg-danger">x</button>
+        <br>
+        <br>
+        
+        <label for="Email address">Email Address</label>
+        <br>
+        <input id="Email address" name="Email address" type="email" placeholder="Enter email">
+        <p>Your information is safe with us.</p>
+        
+        <br>
+        
+        <label for="Password">Password</label>
+        <br>
+        <input id="Password" name="Password" placeholder="Password" type="password">
+        <br>
+        <br>
+        
+        <label for="Confirm Password">Confirm Password</label>
+        <br>
+        <input id="Confirm Password" name="Confirm Password" type="password" placeholder="Confirm Password">
+        <br>
+        <br>
+        
+        <button class="bg-success" id="Submit" name="submit" type="submit">
+        Submit
+        </button>
+        <br>
+    
+    
+    </form>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
 </html>
